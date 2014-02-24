@@ -1,0 +1,52 @@
+create database listexpenses;
+use listexpenses;
+create table expenses(num int, paydate date, receiver int, value dec(10,2));
+create table receivers(num int, name varchar(255));
+
+
+
+
+insert into expenses (num, paydate, receiver, value)
+values (1, '2013-5-10', 1, 4200.0);
+insert into expenses (num, paydate, receiver, value)
+values (2, '2013-6-11', 2, 4410.20);
+insert into expenses (num, paydate, receiver, value)
+values (3, '2013-7-18', 3, 32000.40);
+insert into expenses (num, paydate, receiver, value)
+values (4, '2013-9-10', 2, 4500.70);
+insert into expenses (num, paydate, receiver, value)
+values (5, '2013-11-25', 1, 62700.0);
+insert into expenses (num, paydate, receiver, value)
+values (6, '2014-1-9', 3, 8700.0);
+insert into expenses (num, paydate, receiver, value)
+values (7, '2014-1-14', 3, 42000.0);
+insert into expenses (num, paydate, receiver, value)
+values (8, '2014-2-5', 1, 12300.10);
+insert into expenses (num, paydate, receiver, value)
+values (9, '2014-2-10', 1, 11000.0);
+insert into expenses (num, paydate, receiver, value)
+values (10, '2014-2-19', 2, 5200.30);
+
+
+
+
+
+insert into receivers (num, name)
+values (1, 'Интернет-провайдер "Соло"');
+insert into receivers (num, name)
+values (2, 'Гипермаркет "Корона"');
+insert into receivers (num, name)
+values (3, 'МТС');
+
+
+
+
+
+select expenses.num, paydate, value, name from expenses, receivers where receiver=receivers.num and value > 10000;
+
+
+
+delete from expenses where value < 10000;
+
+
+
