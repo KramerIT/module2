@@ -45,6 +45,8 @@ public class Main {
                 System.out.println(resultSet2.getInt(1));
           //  }
 
+            System.out.println();
+
 
 
 
