@@ -8,4 +8,7 @@ public class ReceiverBean {
     public int getNum(){return num;}
     public void setName(String name){this.name = name;}
     public String getName(){return name;}
+    public String toString(){
+        return getNum() + " " + getName();
+    }
 }

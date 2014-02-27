@@ -14,4 +14,7 @@ public class ExpensesBean {
     public String getReceiver(){return receiver;}
     public void setValue(double value){this.value = value;}
     public double getValue(){return value;}
+    public String toString(){
+        return getNum() + " " + getPayDate() + " " + getReceiver() + " " + getValue();
+    }
 }

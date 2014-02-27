@@ -10,7 +10,8 @@ public interface ListExpensesDao {
     ArrayList <ReceiverBean> getReceivers();
     ExpensesBean getExpense(int num);
     ArrayList <ExpensesBean> getExpenses();
-    int addReceiver(ReceiverBean receiverBean);
-    int addExpense(ExpensesBean expensesBean);
-
+    void addReceiver(ReceiverBean receiverBean);
+    void addExpense(ExpensesBean expensesBean);
+    void setQuery(String query);
+    String getQuery(String query);
 }

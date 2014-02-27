@@ -64,10 +64,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="1638" selection-end="1638" vertical-scroll-proportion="0.9659319" vertical-offset="351" max-vertical-offset="1139">
+            <state line="46" column="0" selection-start="1460" selection-end="1460" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="2839">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,8 +78,17 @@
       <file leaf-file-name="ExpensesBean.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/beans/ExpensesBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="42" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-              <folding />
+            <state line="17" column="86" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+              <folding>
+                <element signature="method#setNum#0;class#ExpensesBean#0" expanded="true" />
+                <element signature="method#getNum#0;class#ExpensesBean#0" expanded="true" />
+                <element signature="method#setPayDate#0;class#ExpensesBean#0" expanded="true" />
+                <element signature="method#getPayDate#0;class#ExpensesBean#0" expanded="true" />
+                <element signature="method#setReceiver#0;class#ExpensesBean#0" expanded="true" />
+                <element signature="method#getReceiver#0;class#ExpensesBean#0" expanded="true" />
+                <element signature="method#setValue#0;class#ExpensesBean#0" expanded="true" />
+                <element signature="method#getValue#0;class#ExpensesBean#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,7 +96,7 @@
       <file leaf-file-name="ListExpensesDao.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/dao/ListExpensesDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="374">
+            <state line="15" column="34" selection-start="445" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
@@ -96,17 +105,35 @@
       <file leaf-file-name="ReceiverBean.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/beans/ReceiverBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289">
-              <folding />
+            <state line="14" column="0" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+              <folding>
+                <element signature="method#setNum#0;class#ReceiverBean#0" expanded="true" />
+                <element signature="method#getNum#0;class#ReceiverBean#0" expanded="true" />
+                <element signature="method#setName#0;class#ReceiverBean#0" expanded="true" />
+                <element signature="method#getName#0;class#ReceiverBean#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SQLquery.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SQLquery.java">
+      <file leaf-file-name="SqlConnectSingleton.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/src/SqlConnectSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="1" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="374">
-              <folding />
+            <state line="190" column="20" selection-start="7507" selection-end="7507" vertical-scroll-proportion="0.7955912" vertical-offset="79" max-vertical-offset="629">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#SqlConnectSingleton#0;class#SqlConnectSingleton#0" expanded="false" />
+                <element signature="method#setSqlConnect#0;class#SqlConnectSingleton#0" expanded="false" />
+                <element signature="method#addReceiver#0;class#SqlConnectSingleton#0" expanded="false" />
+                <element signature="method#addExpense#0;class#SqlConnectSingleton#0" expanded="false" />
+                <element signature="method#getReceiver#0;class#SqlConnectSingleton#0" expanded="false" />
+                <element signature="method#getExpense#0;class#SqlConnectSingleton#0" expanded="false" />
+                <element signature="method#getReceivers#0;class#SqlConnectSingleton#0" expanded="false" />
+                <element signature="e#4724#4738#0" expanded="true" />
+                <element signature="method#getExpenses#0;class#SqlConnectSingleton#0" expanded="false" />
+                <element signature="e#5788#5802#0" expanded="true" />
+                <element signature="method#setQuery#0;class#SqlConnectSingleton#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,15 +148,18 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/SQLquery.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/src/beans/Expenses.java" />
-        <option value="$PROJECT_DIR$/src/src/beans/ExpensesBean.java" />
         <option value="$PROJECT_DIR$/src/src/beans/Receiver.java" />
-        <option value="$PROJECT_DIR$/src/src/beans/ReceiverBean.java" />
         <option value="$PROJECT_DIR$/src/src/dao/Dao.java" />
-        <option value="$PROJECT_DIR$/src/src/dao/ListExpensesDao.java" />
+        <option value="$PROJECT_DIR$/src/SQLquery.java" />
+        <option value="$PROJECT_DIR$/src/SqlConnect.java" />
+        <option value="$PROJECT_DIR$/src/SqlConnectSingleton.java" />
+        <option value="$PROJECT_DIR$/src/src/beans/ReceiverBean.java" />
+        <option value="$PROJECT_DIR$/src/src/beans/ExpensesBean.java" />
         <option value="$PROJECT_DIR$/src/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/src/dao/ListExpensesDao.java" />
+        <option value="$PROJECT_DIR$/src/src/SqlConnectSingleton.java" />
       </list>
     </option>
   </component>
@@ -180,20 +210,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ex9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ex9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ex9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -452,29 +468,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1456" height="886" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24930556" sideWeight="0.6718576" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32692307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32692307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -514,7 +530,16 @@
     <entry file="file://$PROJECT_DIR$/src/src/beans/ExpensesBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="42" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="391">
-          <folding />
+          <folding>
+            <element signature="method#setNum#0;class#ExpensesBean#0" expanded="true" />
+            <element signature="method#getNum#0;class#ExpensesBean#0" expanded="true" />
+            <element signature="method#setPayDate#0;class#ExpensesBean#0" expanded="true" />
+            <element signature="method#getPayDate#0;class#ExpensesBean#0" expanded="true" />
+            <element signature="method#setReceiver#0;class#ExpensesBean#0" expanded="true" />
+            <element signature="method#getReceiver#0;class#ExpensesBean#0" expanded="true" />
+            <element signature="method#setValue#0;class#ExpensesBean#0" expanded="true" />
+            <element signature="method#getValue#0;class#ExpensesBean#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -528,14 +553,32 @@
     <entry file="file://$PROJECT_DIR$/src/src/beans/ReceiverBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289">
-          <folding />
+          <folding>
+            <element signature="method#setNum#0;class#ReceiverBean#0" expanded="true" />
+            <element signature="method#getNum#0;class#ReceiverBean#0" expanded="true" />
+            <element signature="method#setName#0;class#ReceiverBean#0" expanded="true" />
+            <element signature="method#getName#0;class#ReceiverBean#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SQLquery.java">
+    <entry file="file://$PROJECT_DIR$/src/src/SqlConnectSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="1" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="374">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#SqlConnectSingleton#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="method#setSqlConnect#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="method#addReceiver#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="method#addExpense#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="method#getReceiver#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="method#getExpense#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="method#getReceivers#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="e#4724#4738#0" expanded="true" />
+            <element signature="method#getExpenses#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="e#5788#5802#0" expanded="true" />
+            <element signature="method#setQuery#0;class#SqlConnectSingleton#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -548,46 +591,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SQLquery.java">
+    <entry file="file://$PROJECT_DIR$/src/src/SqlConnectSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="28" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/beans/ReceiverBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/dao/ListExpensesDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SQLquery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="1" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="374">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#SqlConnectSingleton#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="method#setSqlConnect#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="method#addReceiver#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="method#addExpense#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="method#getReceiver#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="method#getExpense#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="method#getReceivers#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="e#4724#4738#0" expanded="true" />
+            <element signature="method#getExpenses#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="e#5788#5802#0" expanded="true" />
+            <element signature="method#setQuery#0;class#SqlConnectSingleton#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/beans/ExpensesBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="42" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding />
+        <state line="17" column="86" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <folding>
+            <element signature="method#setNum#0;class#ExpensesBean#0" expanded="true" />
+            <element signature="method#getNum#0;class#ExpensesBean#0" expanded="true" />
+            <element signature="method#setPayDate#0;class#ExpensesBean#0" expanded="true" />
+            <element signature="method#getPayDate#0;class#ExpensesBean#0" expanded="true" />
+            <element signature="method#setReceiver#0;class#ExpensesBean#0" expanded="true" />
+            <element signature="method#getReceiver#0;class#ExpensesBean#0" expanded="true" />
+            <element signature="method#setValue#0;class#ExpensesBean#0" expanded="true" />
+            <element signature="method#getValue#0;class#ExpensesBean#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1638" selection-end="1638" vertical-scroll-proportion="0.9659319" vertical-offset="351" max-vertical-offset="1139">
+        <state line="46" column="0" selection-start="1460" selection-end="1460" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="2839">
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/beans/ReceiverBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding>
+            <element signature="method#setNum#0;class#ReceiverBean#0" expanded="true" />
+            <element signature="method#getNum#0;class#ReceiverBean#0" expanded="true" />
+            <element signature="method#setName#0;class#ReceiverBean#0" expanded="true" />
+            <element signature="method#getName#0;class#ReceiverBean#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/dao/ListExpensesDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="34" selection-start="445" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/SqlConnectSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="190" column="20" selection-start="7507" selection-end="7507" vertical-scroll-proportion="0.7955912" vertical-offset="79" max-vertical-offset="629">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#SqlConnectSingleton#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="method#setSqlConnect#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="method#addReceiver#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="method#addExpense#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="method#getReceiver#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="method#getExpense#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="method#getReceivers#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="e#4724#4738#0" expanded="true" />
+            <element signature="method#getExpenses#0;class#SqlConnectSingleton#0" expanded="false" />
+            <element signature="e#5788#5802#0" expanded="true" />
+            <element signature="method#setQuery#0;class#SqlConnectSingleton#0" expanded="false" />
           </folding>
         </state>
       </provider>
